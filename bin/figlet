@@ -12,7 +12,7 @@ var figlet = require('figlet'),
     .alias('l', 'list')
     .describe('l', 'List all the available fonts')
     .alias('f', 'font')
-    .describe('f', 'A string value that indicates the FIGlet font to use')
+    .describe('f', 'A string value that indicates the Figletify font to use')
     .describe('horizontal-layout', 'A string value that indicates the horizontal layout to use')
     .describe('vertical-layout', 'A string value that indicates the vertical layout to use');
 
