@@ -1,26 +1,19 @@
 {
-    "name": "figlet-cli",
-    "version": "0.1.1",
-    "description": "Command line interface for the FIGlet.js library.",
+    "name": "@jedithepro/figletify-cli",
+    "version": "1.0.0",
+    "description": "Command line interface for the @jedithepro/figletify library.",
     "keywords": ["figlet", "ascii", "art", "banner", "ansi"],
     "repository": {
         "type": "git",
-        "url": "https://github.com/patorjk/figlet-cli.git"
-    },
-    "bugs": {
-        "url": "https://github.com/patorjk/figlet-cli/issues"
+        "url": "https://github.com/JediThePro/figletify-cli.git"
     },
     "author": {
-        "name": "Patrick Gillespie",
-        "email": "patorjk@gmail.com",
-        "url": "http://patorjk.com/"
+        "name": "JediThePro",
+        "email": "pasit.sakorn@gmail.com"
     },
-    "licenses": [ {
-        "type": "MIT",
-        "url": "http://www.opensource.org/licenses/MIT" 
-    } ],
+    "license": "MIT",
     "bin": {
-        "figlet": "bin/figlet"
+        "figletify": "bin/figletify"
     },
     "dependencies": {
         "optimist": "~0.6.0",
@@ -37,6 +30,6 @@
         
     },
     "engines": { 
-        "node": ">= 0.4.0" 
+        "node": ">=10.0.0" 
     }
 }
